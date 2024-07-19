@@ -13,6 +13,41 @@
         "price": 9.99,
         "specifications": "Durable oil filter",
         "availability": "In Stock"
+      },
+      {
+        "id": 3,
+        "name": "Cutting disc",
+        "price": 1.99,
+        "specifications": "High-quality brake fluid",
+        "availability": "In Stock"
+      },
+      {
+        "id": 4,
+        "name": "stone cuter",
+        "price": 9.99,
+        "specifications": "High-quality brake fluid",
+        "availability": "In Stock"
+      },
+      {
+        "id": 5,
+        "name": "oil",
+        "price": 9.99,
+        "specifications": "High-quality brake fluid",
+        "availability": "In Stock"
+      },
+      {
+        "id": 6,
+        "name": "Blazing Rods",
+        "price": 9.99,
+        "specifications": "High-quality brake fluid",
+        "availability": "In Stock"
+      },
+      {
+        "id": 7,
+        "name": "Blazing powder",
+        "price": 9.99,
+        "specifications": "High-quality brake fluid",
+        "availability": "In Stock"
       }
     ],
     "orders": [
