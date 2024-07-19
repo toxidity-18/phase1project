@@ -1,3 +1,15 @@
+function trackOrder(orderId) {
+    fetch(`http://localhost:3000/orders/${orderId}`)
+        .then(response => response.json())
+        .then(order => {
+            if (order) {
+                orderStatusContainer.textContent = `Order Status: ${order.status}`;
+            } else {
+                orderStatusContainer.textContent = 'Order not found';
+            }
+        });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const productsContainer = document.getElementById('products');
     const orderForm = document.getElementById('order-form');
