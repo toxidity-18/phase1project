@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gatunganga Order Track/title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  <header class="bg-blue-600 p-4 text-white text-center">
+    <h1 class="text-2xl font-bold">Gatunganga Auto Spares</h1>
+  </header>
+  <main class="container mx-auto mt-6">
+    <section id="product-catalog" class="mb-6">
+      <h2 class="text-xl font-bold mb-4">Product Catalog</h2>
+      <div id="products" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+    </section>
+    <section id="order-tracking" class="mb-6">
+      <h2 class="text-xl font-bold mb-4">Order Tracking</h2>
+      <form id="order-form" class="mb-4">
+        <input type="text" id="order-id" placeholder="Enter your order ID" class="p-2 border border-gray-300 rounded">
+        <button type="submit" class="p-2 bg-blue-600 text-white rounded">Track Order</button>
+      </form>
+      <div id="order-status" class="p-4 bg-white shadow-md rounded"></div>
+    </section>
+    <section id="feedback" class="mb-6">
+      <h2 class="text-xl font-bold mb-4">Customer Feedback</h2>
+      <form id="feedback-form" class="mb-4">
+        <select id="product-id" class="p-2 border border-gray-300 rounded">
+          <option value="">Select Product</option>
+        </select>
+        <input type="text" id="feedback-text" placeholder="Enter your feedback" class="p-2 border border-gray-300 rounded">
+        <button type="submit" class="p-2 bg-blue-600 text-white rounded">Submit Feedback</button>
+      </form>
+      <div id="feedback-list" class="p-4 bg-white shadow-md rounded"></div>
+    </section>
+  </main>
+  <footer class="bg-gray-800 p-4 text-white text-center">
+    <p>&copy; 2024 Gatunganga Auto Spares</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

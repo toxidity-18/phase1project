@@ -1,0 +1,35 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Brake Pads",
+        "price": 25.99,
+        "specifications": "High-quality brake pads",
+        "availability": "In Stock"
+      },
+      {
+        "id": 2,
+        "name": "Oil Filter",
+        "price": 9.99,
+        "specifications": "Durable oil filter",
+        "availability": "In Stock"
+      }
+    ],
+    "orders": [
+      {
+        "id": 1,
+        "productId": 1,
+        "status": "Processing"
+      }
+    ],
+      "feedbacks": [
+      {
+        "id": 1,
+        "productId": 1,
+        "feedback": "Great product!",
+        "rating": 5
+      }
+    ]
+
+  }
+  
